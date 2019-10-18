@@ -1,0 +1,251 @@
+.topmenu{
+  overflow: hidden;
+  background-color: whitesmoke;
+  height: 52;
+  padding-right:300px;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: rebeccapurple;
+  
+}
+
+.topmenu a{
+  padding: 26px;
+  text-decoration: none;
+  display: inline;
+  border-radius: 50%;
+}
+
+.topmenu a:hover {
+  color: red;
+  transition: 3s;
+} 
+
+ .footer{
+    overflow: hidden;
+    background-color: violet;
+} 
+
+  .footer a{  
+  float: right;
+  display: block;
+  color: #f2f2f2; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration : none;
+  font-size : 17px;
+} 
+ 
+ body {  
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+} 
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+  border-radius: 50%;
+} 
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('https://i.imgur.com/yGmrlyg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #FFCF33;
+} 
+
+ .masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+} 
+
+.masthead-heading { 
+    color: #F1C863;
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+} 
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+} 
+
+introduction-section > p,
+.location-section > p,
+.questions-section,
+.content-footer > p { 
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+    margin: 2em 0 1em 0;
+} 
+
+ section > h1 {
+    margin-top: 2em;
+} 
+
+ .content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+  transition: 5s;
+  align-content: center;
+  word-wrap: break-word;
+  text-anchor: middle;
+} 
+
+ .masthead .photo {
+  padding: 6em 0;
+  background-image: url("https://i.ytimg.com/vi/BHACKCNDMW8/maxresdefault.jpg");
+  background-color: purple;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #FFCF33;
+  border-radius: 50%;
+  border-block-end: #F1C863;
+  transition-duration: 5s;
+  
+
+}  
+
+ .masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 50px;
+    color: aquamarine;
+} 
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+h2 {
+ 
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold; 
+    font-size: italic;
+}  
+
+ .introduction-section,
+.education-section,
+.hobbies-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    background-color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+ .content-footer {
+  margin: 50px 0;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #73A8C2;
+  text-decoration: none;
+  image-orientation: 0turn;
+display: block;
+font-display: inherit;
+} 
+ .social > li {
+  display: inline-block;
+  margin: 0 5px;
+} 
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #F1C863;
+} 
+  
+ @media only screen and (max-width: 500px) {
+.masthead {
+  padding: 3em 0;
+}
+
+.masthead-heading {
+   font-size: 3em;
+}
+
+.content-footer {
+        padding: 2em 2.5em;
+       
+} 
+
+ h1 {
+    color: #FFCF33;
+    background-color: antiquewhite;
+    font-size: 30px;
+} 
+
+  h2 {
+    color: #FFCF33;
+    background-color: aliceblue;
+}  
+  p{ 
+    font-size: 30px;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: #73A8C2;
+    background-color: azure;
+}  
+ .footerimage {
+  height: 20px;
+  width: 1em;
+  align-content: stretch;
+ } 
+ .active{
+  background-color: #FFCF33;
+  display: inline;
+  align-content: center;
+} 
+
+ h3{
+  color: #FFCF33;
+  background-color: #FFCF33;
+}
+.main{
+  border-radius: 50%;
+}
+.name{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.photo{
+  border-radius: 50%;
+}
